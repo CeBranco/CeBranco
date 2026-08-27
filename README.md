@@ -1,4 +1,4 @@
-<h1 data-importer="text" align="center">Olá 👋 Tudobem?'</h1>
+<h1 data-importer="text" align="center">Olá 👋 Tudo bem?'</h1>
 
 ###
 
@@ -39,10 +39,12 @@
 
 ###
 
+<br clear="both">
+
 <picture data-importer="pacman">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CeBranco/CeBranco/pacman-output/galaga-contribution-graph-dark.svg?game=galaga">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/CeBranco/CeBranco/pacman-output/galaga-contribution-graph.svg?game=galaga">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/CeBranco/CeBranco/pacman-output/galaga-contribution-graph.svg?game=galaga">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CeBranco/CeBranco/pacman-output/pacman-contribution-graph-dark.svg?game=pacman">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/CeBranco/CeBranco/pacman-output/pacman-contribution-graph.svg?game=pacman">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/CeBranco/CeBranco/pacman-output/pacman-contribution-graph.svg?game=pacman">
 </picture>
 
 ###
