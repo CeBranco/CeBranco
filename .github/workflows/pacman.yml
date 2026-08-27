@@ -1,0 +1,20 @@
+name: generate pacman contribution graph
+on:
+  schedule:
+    - cron: '0 0 * * *'   # roda todo dia à meia-noite UTC
+  workflow_dispatch:        # permite rodar manualmente
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: generate contribution graph SVGs
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
